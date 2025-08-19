@@ -11,20 +11,6 @@ I utilized Terraform, an IaC tool, to define and provision the AWS resources req
 ### AWS S3 Bucket:
 I created an S3 bucket to store and serve the static website files. This bucket is configured for website hosting, allowing for easy content delivery.
 
-### Content Upload and Management: 
-I provided instructions and scripts for uploading and managing my website content within the S3 bucket.
-
-## Prerequisites:
-
-1. Basic knowledge of AWS services and concepts.
-2. Familiarity with Terraform and infrastructure as code principles.
-3. An AWS account with appropriate permissions.
-4. An IDE of your Choice , I would suggest VS Code Editor .
-5. This project serves as an excellent foundation for hosting various types of static websites, including personal blogs, portfolio sites, or small business websites.
-
-
-## Steps :
-
 ### Step 1: Set Up Your Development Environment
 
 Install Terraform and the AWS Command Line Interface (CLI) on your local machine.
@@ -152,7 +138,7 @@ output "websiteendpoint" {
 terraform apply -auto-approve
 ```
 
-### Step 6: Verify the Output 
+
 
 
 

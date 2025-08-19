@@ -151,14 +151,8 @@ output "websiteendpoint" {
 ```
 terraform apply -auto-approve
 ```
-4. It will give your website link as output as shown below
-
-![s3](https://github.com/mathesh-me/static-website-host-1/assets/144098846/90551cc8-ed1e-45c3-91b1-ffcce24666e1)
 
 ### Step 6: Verify the Output 
 
-Copy the link and paste it in your favourite browser.
-
-![s4](https://github.com/mathesh-me/static-website-host-1/assets/144098846/f1908092-afeb-427b-a129-cc291275f4ae)
 
 
